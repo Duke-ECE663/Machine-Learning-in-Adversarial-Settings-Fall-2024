@@ -1,0 +1,311 @@
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+            <title>Trustworthy Machine Learning</title>
+            <link rel="stylesheet" title="PM CSS" href="mittal.css" type="text/css">
+                <meta name="google-site-verification" content="PJjpG3rijgDtqroGhZqVsZQNtp_HBJhhAJvNPKAaD9Q" />
+                <!--<meta name="google-site-verification" content="sEN-WBhU3XlP0o6YEEMTBH8-86q-Vs0ELdauKy_El3o" />-->
+               
+                <style>
+                    table, th, td {
+                      border: 1px solid black;
+                      border-collapse: collapse;
+                    }
+
+                .content {
+                  max-width: 1000px;
+                  margin: auto;
+                  background: white;
+                  padding: 10px;
+                }
+                </style>
+
+    </head>
+    
+    
+    <body bgcolor="white">
+        <div class="content">
+
+
+
+<h1><center>
+    <br>
+    ECE 663: Machine Learning in Adversarial Settings (Fall 2024)
+</center></h1>
+<hr>
+<h2>
+Instructor
+</h2>
+Neil Gong, neil.gong@duke.edu<br>
+
+
+<h2>
+Teaching Assistant
+</h2>
+Zhengyuan Jiang, zhengyuan.jiang@duke.edu<br>
+
+Yuepeng Hu, yuepeng.hu@duke.edu<br>
+
+<h2>
+Lectures
+</h2>
+Time: MW 3:05pm - 4:20pm<br>
+Location: Wilkinson Auditorium 021
+
+
+<h2>
+Office Hours
+</h2>
+Time: Thursday  9:00am - 10am <br>
+Location: 413 Wilkinson Building
+<h2>
+Tentative Schedule
+</h2>
+
+08/26 &nbsp;&nbsp; <strong> Course overview (<a href="Lecture1.pdf">Slides</a>)</strong>
+
+
+
+<br><br> 08/28 &nbsp;&nbsp; <strong> Adversarial examples (white-box) (<a href=".pdf">Slides</a>) </strong>
+<ul>
+    <li><a href="https://urldefense.com/v3/__https://arxiv.org/pdf/1608.04644.pdf__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV31YE1tOU$">Towards Evaluating the Robustness of Neural Networks</a></li>
+
+</ul>
+
+09/02 &nbsp;&nbsp; <strong> Holiday </strong>
+
+<br><br> 09/04 &nbsp;&nbsp; <strong> Cancelled </strong>
+
+<br><br> 09/09 &nbsp;&nbsp; <strong> Adversarial examples (black-box)  (<a href=".pdf">Slides</a>) </strong>
+ <ul>
+     <li><a href="https://urldefense.com/v3/__https://arxiv.org/abs/1904.02144__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3PlR5mJM$">HopSkipJumpAttack: A Query-Efficient Decision-Based Attack</a></li>
+     <li>Optional: <a href="https://urldefense.com/v3/__https://arxiv.org/abs/1611.02770__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3Qq9kL-s$">Delving into Transferable Adversarial Examples and Black-box Attacks
+ </a></li>
+
+ </ul>
+
+
+
+09/11 &nbsp;&nbsp; <strong> Empirical defenses against adversarial examples (<a href=".pdf">Slides</a>) </strong>
+<ul>
+    <li><a href="https://urldefense.com/v3/__https://arxiv.org/abs/1706.06083__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3JDOf6qU$">Towards Deep Learning Models Resistant to Adversarial Attacks</a></li>
+    <li>Optional: <a href="https://urldefense.com/v3/__https://arxiv.org/abs/1802.00420__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3yGzSdkU$">Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples</a></li>
+    <li>Optional: <a href="https://urldefense.com/v3/__https://arxiv.org/abs/1705.07263__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3_Ach4yI$">Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods</a></li>
+
+</ul>
+
+09/16 &nbsp;&nbsp; <strong> Certified defenses against adversarial examples (<a href=".pdf">Slides</a>)</strong>
+<ul>
+    <li><a href="https://urldefense.com/v3/__https://arxiv.org/abs/1902.02918__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3msTnZzw$">Certified Adversarial Robustness via Randomized Smoothing</a></li>
+</ul>
+
+
+09/18 &nbsp;&nbsp; <strong> Data poisoning attacks (<a href=".pdf">Slides</a>) </strong>
+<ul>
+
+    <li><a href="https://urldefense.com/v3/__https://arxiv.org/pdf/1206.6389.pdf__;!!OToaGQ!6F-a7tW7vP82pAboe34Vfvy2Vh-v7TG-8DfDiy7lSypZ4E9wi_B_-hNY8NL4U-ieciw$">Poisoning Attacks against Support Vector Machines</a></li>
+    <li>Optional: <a href="https://urldefense.com/v3/__https://arxiv.org/pdf/1804.00792.pdf__;!!OToaGQ!6F-a7tW7vP82pAboe34Vfvy2Vh-v7TG-8DfDiy7lSypZ4E9wi_B_-hNY8NL4crLV6n0$">Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks</a></li>
+</ul>
+
+
+
+
+
+09/23 &nbsp;&nbsp; <strong> Backdoor attacks  (<a href=".pdf">Slides</a>) </strong>
+ <ul>
+     <li><a href="https://urldefense.com/v3/__https://arxiv.org/abs/1708.06733__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3xgsgPVw$">BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain</a></li>
+     <li>Optional: <a href="https://urldefense.com/v3/__https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2782&amp;context=cstech__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3ImsyuWo$">Trojaning Attack on Neural Networks</a></li>
+ </ul>
+
+
+
+09/25 &nbsp;&nbsp; <strong> Model poisoning attacks (<a href=".pdf">Slides</a>) </strong>
+ <ul>
+     <li><a href="https://urldefense.com/v3/__https://arxiv.org/abs/1911.11815__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3FxoNDOA$">Local Model Poisoning Attacks to Byzantine-Robust Federated Learning</a></li>
+ </ul>
+
+ 
+ 09/30 &nbsp;&nbsp; <strong> Backdoor attacks to foundation models (<a href=".pdf">Slides</a>) </strong>
+ <ul>
+     <li><a href="https://urldefense.com/v3/__https://arxiv.org/pdf/2108.00352.pdf__;!!OToaGQ!6F-a7tW7vP82pAboe34Vfvy2Vh-v7TG-8DfDiy7lSypZ4E9wi_B_-hNY8NL4ZU2ci5s$">BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning</a></li>
+     <li>Optional: <a href="https://arxiv.org/pdf/2106.09667.pdf">Poisoning and Backdooring Contrastive Learning</a></li>
+ </ul>
+
+ 
+10/02 &nbsp;&nbsp; <strong> Empirical defenses against backdoor attacks (<a href=".pdf">Slides</a>) </strong>
+ <ul>
+     <li><a href="https://urldefense.com/v3/__https://people.cs.uchicago.edu/*ravenben/publications/pdf/backdoor-sp19.pdf__;fg!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3ktxREZg$">Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks</a></li>
+     <li>Optional: <a href="https://urldefense.com/v3/__https://arxiv.org/pdf/1902.06531.pdf__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3m5MtisU$">STRIP: A Defence Against Trojan Attacks on Deep Neural Networks</a></li>
+ </ul>
+
+
+ 
+ 10/07 &nbsp;&nbsp; <strong> Certified defenses against poisoning/backdoor attacks (<a href=".pdf">Slides</a>)  </strong>
+ <ul>
+     <li><a href="https://urldefense.com/v3/__https://arxiv.org/abs/2008.04495__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3-U3YQGo$">Intrinsic Certified Robustness of Bagging against Data Poisoning Attacks</a></li>
+     <li>Optional: <a href="https://urldefense.com/v3/__https://arxiv.org/abs/2012.03765__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3m1ZNqIY$">Certified Robustness of Nearest Neighbors against Data Poisoning and Backdoor Attacks</a></li>
+     <li>Optional: <a href="https://urldefense.com/v3/__https://arxiv.org/pdf/1706.03691.pdf__;!!OToaGQ!6F-a7tW7vP82pAboe34Vfvy2Vh-v7TG-8DfDiy7lSypZ4E9wi_B_-hNY8NL4ofPyag8$">Certified Defenses for Data Poisoning Attacks</a></li>
+ </ul>
+
+ 
+
+ 
+
+
+10/09 &nbsp;&nbsp; <strong> Model stealing attacks (<a href=".pdf">Slides</a>)  </strong>
+<ul>
+    <li><a href="https://urldefense.com/v3/__https://arxiv.org/abs/1609.02943__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV37mhOVdc$">Stealing Machine Learning Models via Prediction APIs</a></li>
+    <li>Optional: <a href="https://urldefense.com/v3/__https://arxiv.org/abs/1802.05351__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV39frYFSk$">Stealing Hyperparameters in Machine Learning</a></li>
+</ul>
+
+ 
+
+
+
+  10/14 &nbsp;&nbsp; <strong> Privacy attacks - model inversion and membership inference (<a href=".pdf">Slides</a>)  </strong>
+<ul>
+    <li><a href="https://urldefense.com/v3/__https://arxiv.org/abs/1610.05820__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3QBw3Kgo$">Membership Inference Attacks against Machine Learning Models</a></li>
+    <li>Optional: <a href="https://urldefense.com/v3/__https://www.cs.cmu.edu/*mfredrik/papers/fjr2015ccs.pdf__;fg!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV3XmNYAPo$">Model Inversion Attacks that Exploit Confidence Information
+    and Basic Countermeasures</a></li>
+</ul>
+
+ 
+10/16 &nbsp;&nbsp; <strong> Fall break</strong>
+
+ 
+ <br> <br>  10/21 &nbsp;&nbsp; <strong> Privacy-preserving machine learning via statistical methods (<a href=".pdf">Slides</a>) </strong>
+<ul>
+    <li><a href="https://urldefense.com/v3/__https://arxiv.org/abs/1607.00133__;!!OToaGQ!7aem45a2mLjp5J1EL1P2lSk_t64uHLTVkUB0kjNmypHIgNc3NmlS5W0bPiV31WpIhMc$">Deep Learning with Differential Privacy</a></li>
+</ul>
+
+
+ 10/23 &nbsp;&nbsp; <strong> Privacy-preserving machine learning via cryptographic methods (<a href=".pdf">Slides</a>) </strong>
+  <ul>
+      <li><a href="https://eprint.iacr.org/2017/396.pdf">SecureML: A System for Scalable Privacy-Preserving
+          Machine Learning</a></li>
+  </ul>
+
+ 10/28 &nbsp;&nbsp; <strong> Data auditing (<a href=".pdf">Slides</a>) </strong>
+<ul>
+    <li><a href="https://arxiv.org/abs/2407.15100">A General Framework for Data-Use Auditing of ML Models</a></li>
+
+    <li>Optional: <a href="https://urldefense.com/v3/__https://arxiv.org/pdf/2002.00937.pdf__;!!OToaGQ!6F-a7tW7vP82pAboe34Vfvy2Vh-v7TG-8DfDiy7lSypZ4E9wi_B_-hNY8NL4pBqAr78$">Radioactive data: tracing through training</a></li>
+</ul>
+
+
+10/30 &nbsp;&nbsp; <strong>Prompt injection attacks to LLM and defenses (<a href=".pdf">Slides</a>) </strong>
+<ul>
+    <li><a href="https://arxiv.org/abs/2310.12815">Formalizing and Benchmarking Prompt Injection Attacks and Defenses</a></li>
+</ul>
+
+
+
+11/04 &nbsp;&nbsp; <strong>Preventing harmful content generation for LLM (<a href=".pdf">Slides</a>) </strong>
+<ul>
+    <li><a href="https://arxiv.org/abs/2307.15043">Universal and Transferable Adversarial Attacks on Aligned Language Models</a></li>
+    <li> Optional: <a href="https://arxiv.org/abs/2305.18290">Direct Preference Optimization: Your Language Model is Secretly a Reward Model</a></li>
+
+</ul>
+
+
+11/06 &nbsp;&nbsp; <strong>Preventing harmful content generation for text-to-image models (<a href=".pdf">Slides</a>) </strong>
+<ul>
+    <li><a href="https://arxiv.org/abs/2303.07345">Erasing Concepts from Diffusion Models</a></li>
+    <li><a href="https://arxiv.org/abs/2305.12082">SneakyPrompt: Jailbreaking Text-to-image Generative Models</a></li>
+</ul>
+
+
+11/11 &nbsp;&nbsp; <strong>Detecting AI-generated text (<a href=".pdf">Slides</a>) </strong>
+<ul>
+    <li><a href="https://arxiv.org/abs/2301.10226">A Watermark for Large Language Models</a></li>
+    <li><a href="https://proceedings.mlr.press/v202/mitchell23a.html">DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature</a></li>
+    <li>Optional: <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/575c450013d0e99e4b0ecf82bd1afaa4-Abstract-Conference.html">Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense</a></li>
+    <li>Optional: <a href="https://www.youtube.com/watch?v=2Kx9jbSMZqA">Watermarking of Large Language Models</a></li>
+
+</ul>
+
+
+ 11/13 &nbsp;&nbsp; <strong>Detecting AI-generated images (<a href=".pdf">Slides</a>) </strong>
+ <ul>
+     <li><a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Jiren_Zhu_HiDDeN_Hiding_Data_ECCV_2018_paper.pdf">HiDDeN: Hiding Data With Deep Networks</a></li>
+     <li><a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Ojha_Towards_Universal_Fake_Image_Detectors_That_Generalize_Across_Generative_Models_CVPR_2023_paper.pdf">Towards Universal Fake Image Detectors that Generalize Across Generative Models</a></li>
+     <li>Optional: <a href="https://arxiv.org/abs/2404.04254/">Watermark-based Detection and Attribution of AI-Generated Content
+</a></li>
+ </ul>
+
+ 
+ 11/18 &nbsp;&nbsp; <strong>Detecting AI-generated images (<a href=".pdf">Slides</a>) </strong>
+ <ul>
+     <li><a href="https://arxiv.org/abs/2305.03807">Evading Watermark based Detection of AI-Generated Content</a></li>
+     <li><a href="https://arxiv.org/abs/2407.04086">Certifiably Robust Image Watermark</a></li>
+ </ul>
+
+
+ 
+  11/20 &nbsp;&nbsp; <strong> Project presentation  </strong>
+ <ul>
+ </ul>
+
+
+ 11/25 &nbsp;&nbsp; <strong> Project presentation  </strong>
+<ul>
+</ul>
+
+
+<h2>
+Course Description
+</h2>
+Machine learning is being widely deployed in many aspects of our society. Our vision is that machine learning systems will become a new attack surface and attackers will exploit the vulnerabilities in machine learning algorithms and systems to subvert their security and privacy. In this course, we will discuss security and privacy attacks to machine learning systems and state-of-the-art defenses against them. 
+
+<h2>
+Class Format
+</h2>
+The class is paper reading, lecture, discussion, and project oriented. We will focus on one topic in a lecture. Students are expected to read the suggested papers on the topic and send comments to a specified email address by the end of the day before the lecture. Students are expected to lead a lecture on a chosen topic, complete a class project, present the project, and write a project report.
+
+<h2>
+Group
+</h2>
+Students can form groups of at most 4 students for the lecture and class project.
+
+
+<h2>
+Deadlines
+</h2>
+Reading assignments
+<ul>
+    <li>Sunday and Tuesday 11:59pm. Send comments to adversarialmlduke@gmail.com. Please send your comments to all papers in a single email thread.</li>
+</ul>
+
+Choosing a topic for lecture
+<ul>
+    <li>A group sends three preferred dates to adversarialmlduke@gmail.com by 11:59pm, 09/13.</li>
+</ul>
+
+Class project
+<ul>
+    <li>09/16: project proposal due.</li>
+    <li>10/21: milestone report due.</li>
+    <li>11/20, 11/25: project presentation.</li>
+    <li>12/06: final project report due.</li>
+</ul>
+
+
+<h2>
+Grading Policy
+</h2>
+50% project<br>
+25% reading assignment<br>
+10% class participation<br>
+15% class presentation
+
+    <br>
+                        <br>
+                        
+                        <br>
+                        <br>
+                        
+     </div>
+    </body>
+</html>
+
